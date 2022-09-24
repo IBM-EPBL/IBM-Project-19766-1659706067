@@ -1,25 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Volkhov&display=swap');
-
-
-
 body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+	background-color: black;
 }
 
 
 .form{
     background-color: white;
-	width: 380px;
-	height: 340px;
-	left: 32%;
+	width: 50%;
+	height: 50%;
+	left: 25%;
 	top: 25%;
-	position: absolute;
 	padding: 30px 1px;
 	border-radius: 25px;
-	font-family: 'Balsamiq Sans', cursive;
+	font-family: sans-serif;
 	border: 3px solid black;
+	position: absolute;
 }
 
 .inputBox{
@@ -44,7 +41,7 @@ input{
 	background: transparent;
 	border-bottom: 1px solid #000;
 	font-size: 17px;
-	font-family: 'Balsamiq Sans', cursive;
+	font-family: sans-serif;
 }
 select{
     position: absolute;
@@ -54,7 +51,7 @@ select{
     background: transparent;
     border-bottom: 1px solid #000;
 	font-size: 17px;
-    font-family: 'Balsamiq Sans', cursive;
+    font-family:'Times New Roman', Times, serif;
 }
 label.female{
     position: absolute;
@@ -73,6 +70,10 @@ input#female{
 input#female{
     text-align: right;
 }
+input#female:hover{
+    text-align: right;
+	transition: 0.3s;
+}
 input[type = "submit"]{
 	border: none;
 	outline: none;
@@ -82,9 +83,9 @@ input[type = "submit"]{
 	border-radius: 10px;
     left: 5%;
     top: 11%;
-	background-color: #192EFF;
+	background-color: rgb(77, 224, 77);
 	color: white;
-	font-family: 'Balsamiq Sans', cursive;
+	font-family: 'Times New Roman', Times, serif;
 	font-size: 18px;
     transition: 0.3s;
 }
@@ -94,8 +95,8 @@ input[type = "submit"]:hover{
 	width: 240px;
 	height: 40px;
 	background-color: white;
-	color: blue;
-	border: 2px solid blue;
+	color: rgb(56, 224, 79);
+	border: 2px solid rgb(62, 243, 56);
     transition: 0.3s;
 }
 
