@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/css/register.css">
+    <title>Assessment 1</title>
+</head>
+<body>
+    <div class="container-main">
+        <div class="form">
+            <h2>Update User</h2>
+            <form action="/update" method="POST">
+                <div class="inputBox">
+                    <label>Name</label>
+                    <input type="text" name="name" value="{{user.name}}" placeholder="Enter your Name" required><br><br>
+                    <label>Email Id</label>
+                    <input type="email" name="email" value="{{user.email}}" placeholder="Enter your Email" required><br><br>
+                    <label>Password</label>
+                    <input type="password" name="password" value="{{user.password}}" placeholder="Enter your Password" required><br><br>
+                    <label>Male</label>
+                    <input type="radio" id="male" name="status">
+                    <label class="female">Female</label> 
+                    <input type="radio" id="female" name="status">
+                    <br>
+                    <br>
+                    <label>State</label>
+                    <select name="state" required>
+                        <option value="" id="-1">Select State</option>
+                        <option value="Tamil Nadu" id="1">Tamil Nadu</option>
+                        <option value="Andhra Pradesh" id="2">Andhra Pradesh</option>
+                        <option value="Karnataka" id="3">Karnataka</option>
+                        <option value="Kerla" id="4">Kerla</option>
+                        <option value="Maharastra" id="5">Maharastra</option>
+                        <option value="Delhi" id="6">Delhi</option>
+                    </select>
+                    <br><br>
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
