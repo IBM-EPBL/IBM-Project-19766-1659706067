@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Volkhov&display=swap');
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.form{
+    background-color: white;
+	width: 380px;
+	height: 340px;
+	left: 32%;
+	top: 25%;
+	position: absolute;
+	padding: 30px 1px;
+	border-radius: 25px;
+	font-family: 'Balsamiq Sans', cursive;
+	border: 3px solid black;
+}
+
+.inputBox{
+    top: 25%;
+    left: 16%;
+	position: absolute;
+    height: 50%;
+}
+
+h2{
+    position: absolute;
+    left: 36%;
+    top: 5%;
+}
+
+input{
+	border: none;
+	outline: none;
+    left: 40%;
+    width: 72%;
+    position: absolute;
+	background: transparent;
+	border-bottom: 1px solid #000;
+	font-size: 17px;
+	font-family: 'Balsamiq Sans', cursive;
+}
+select{
+    position: absolute;
+    left: 40%;
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: 1px solid #000;
+	font-size: 17px;
+    font-family: 'Balsamiq Sans', cursive;
+}
+label.female{
+    position: absolute;
+    left: 41%;
+}
+input#male{
+    position: absolute;
+    left: 18%;
+    width: 10%;
+}
+input#female{
+    position: absolute;
+    left: 67%;
+    width: 10%;
+}
+input#female{
+    text-align: right;
+}
+input[type = "submit"]{
+	border: none;
+	outline: none;
+	width: 240px;
+	height: 40px;
+	position: relative;
+	border-radius: 10px;
+    left: 5%;
+    top: 11%;
+	background-color: #192EFF;
+	color: white;
+	font-family: 'Balsamiq Sans', cursive;
+	font-size: 18px;
+    transition: 0.3s;
+}
+
+input[type = "submit"]:hover{
+	cursor: pointer;
+	width: 240px;
+	height: 40px;
+	background-color: white;
+	color: blue;
+	border: 2px solid blue;
+    transition: 0.3s;
+}
+
+label{
+	font-size: 17px;
+}
