@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 30%;
+  padding: 10px;
+  margin: 10px; 
+  height: 400px; 
+  
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+
+}
+
+button{
+    line-height: 25px;
+    width: 85px;
+    font-size: 15pt;
+    margin-top: 5px;
+    margin-right: 10px;
+    position: absolute;
+    top: 5;
+    right: 0;
+}
+
+.column{
+  border-color: yellow;
+  background-color: yellow;
+  
+}
+.div{
+  border-color: coral;
+}
+
+</style>
+</head>
+<body>
+  <div>
+    <form action = "/Login">
+    <button type="submit">Login</button>
+    </form>
+  </div>
+
+ 
+
+<h2>&nbsp;</h2>
+<div><form action = "/Register">
+    <button type="submit">Register</button>
+    </form>
+</div>
+
+<h3 align = center>Company Name</h3>
+
+  <div class="column" style="background-color:tan;">
+    <h2>Mission</h2>
+    <p>To create the most compelling car company of the 21st century by driving the world’s transition to electric vehicles.</p>
+  </div>
+  <div class="column" style="background-color:tan;">
+    <h2>Vision</h2>
+    <p>To accelerate the world’s transition to sustainable energy.</p>
+  </div>
+  <div class="column" style="background-color:tan;">
+    <h2>Values</h2>
+    <p><ul>
+      <li>Ownership mentality.</li>
+      <li>Don’t optimize for the short term.</li>
+      <li>We are all builders.</li>
+      <li>Go the extra mile.</li>
+      <li>Do what’s right.</li>
+      <li>Be transparent.</li>
+    </ul></p>
+  </div>
+
+</body>
+</html>

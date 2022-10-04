@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 30%;
+  padding: 10px;
+  margin: 10px; 
+  height: 400px; 
+  
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+
+}
+
+.column{
+  border-color: yellow;
+  background-color: yellow;
+  
+}
+.div{
+  border-color: coral;
+}
+
+</style>
+</head>
+<body>
+
+<h1 align=center>Jobs</h1>
+
+  <div class="column" style="background-color:tan;">
+    <h2>Software Developer</h2>
+    <p>Need 0-2 years experieced developer in Software side</p>
+    <form action = "Jobs/Apply">
+        <button type="submit" class="button">Apply</button>
+    </form>
+  </div>
+  <div class="column" style="background-color:tan;">
+    <h2>Java Developer</h2>
+    <p> Need 4 - 8 years experience in Java</p>
+    <form action = "Jobs/Apply">
+        <button type="submit" class="button">Apply</button>
+    </form>
+  </div>
+  <div class="column" style="background-color:tan;">
+    <h2>Freshers</h2>
+    <p>Need Quick learners and Problem solving skills</p>
+    <form action = "Jobs/Apply">
+        <button type="submit" class="button">Apply</button>
+    </form>
+  </div>
+
+</body>
+</html>
